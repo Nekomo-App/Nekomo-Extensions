@@ -1,0 +1,53 @@
+name: Compatibility report
+description: Report whether an external source works with Nekomo
+title: "[Compatibility]: "
+labels: ["compatibility"]
+body:
+  - type: input
+    id: nek_version
+    attributes:
+      label: Nekomo version
+    validations:
+      required: true
+  - type: input
+    id: android
+    attributes:
+      label: Android version and device
+    validations:
+      required: true
+  - type: input
+    id: ecosystem
+    attributes:
+      label: Ecosystem / format
+      placeholder: CloudStream, Zangetsu, Aniyomi, Mihon
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Extension or source name and version
+    validations:
+      required: true
+  - type: dropdown
+    id: status
+    attributes:
+      label: Test result
+      options:
+        - Working
+        - Partial
+        - Broken
+        - Untested
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps tested and results
+    validations:
+      required: true
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs (remove tokens, cookies, and personal information)
+    validations:
+      required: false
