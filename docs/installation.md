@@ -20,3 +20,7 @@ Nekomo ships with no sources installed. Open **Settings > Extensions** to reach 
 - **APK extensions (Aniyomi, Mihon):** listed separately. Nekomo never downloads, installs or updates these automatically; you install them yourself.
 
 An **optional official repository** (free and legal sources only) can be added from the same screen with a repository URL or code. Nothing is installed until you add it and confirm the third-party-code warning, and you can remove it, with the sources it installed, at any time. Any other repository can be added manually by URL; Nekomo does not host or vouch for those.
+
+## NEX, the companion manager
+
+[NEX](https://github.com/Nekomo-App/NEX) (Nekomo Extension Exchange) is a separate app from the Nekomo community that manages repositories, extensions and sources for Nekomo, Mihon, Aniyomi, CloudStream and Zangetsu. It ships with no repositories, hosts nothing, and never installs silently. From NEX you can send a repository to Nekomo with one tap (Nekomo asks you to confirm), check Nekomo app updates with SHA-256 verification, and keep Mihon and Aniyomi extensions up to date. Downloads are on its [releases page](https://github.com/Nekomo-App/NEX/releases).
