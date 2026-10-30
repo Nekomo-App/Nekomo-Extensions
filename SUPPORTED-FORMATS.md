@@ -31,3 +31,7 @@ Catalog metadata (titles, artwork, descriptions, and tracking) should be handled
 ## Version reporting
 
 When documenting compatibility, include the Nekomo version, Android version, extension name, extension version, and date tested.
+
+## Repository manifest (optional)
+
+An external repository can be offered as a single JSON manifest that Nekomo reads when a user adds it. It must contain `"nekomoRepository": 1`, a `name`, and a `repositories` list of `{ "type": "cloudstream" | "zangetsu", "name", "url", "description" }`. Only script/plugin formats are handled. APK ecosystems (Aniyomi, Mihon) are never listed or installed by a manifest.

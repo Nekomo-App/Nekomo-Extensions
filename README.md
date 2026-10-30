@@ -2,7 +2,7 @@
 
 A community-maintained compatibility and documentation hub for extensions and external sources used with Nekomo.
 
-Nekomo does not bundle, host, or redistribute third-party extensions or source packages. Users should obtain extensions from their respective developers and only install sources they trust.
+Nekomo does not bundle, host, or redistribute third-party extensions or source packages. An optional official repository of free and legal sources can be added from the app; nothing is installed until the user adds it and confirms. Users should obtain extensions from their respective developers and only install sources they trust.
 
 ## Supported ecosystems
 
