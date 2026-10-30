@@ -37,4 +37,5 @@ This repository is documentation and compatibility tracking only. It is not an e
 - Website source: [Nekomo-Main-Web](https://github.com/Nekomo-App/Nekomo-Main-Web)
 - Legal: [Nekomo-DMCA](https://github.com/Nekomo-App/Nekomo-DMCA)
 - Brand: [Nekomo-Branding](https://github.com/Nekomo-App/Nekomo-Branding)
+- Fun: [Neko-Run](https://github.com/Nekomo-App/Neko-Run) (the pixel cat game on the website's 404 page)
 - History: [OG-Kuro-No-Source](https://github.com/Nekomo-App/OG-Kuro-No-Source) (archive) and [Nekomo-Web](https://github.com/Nekomo-App/Nekomo-Web) (retired)
